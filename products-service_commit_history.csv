@@ -1,0 +1,84 @@
+Commit SHA,Author,Date,Commit Message
+cc4494391c56dffe77c1bd5aae8a89c297e080c1,,2022-01-31,update dependencies (#124)
+adc6aa5d97701582486c356924c99716def13e22,,2022-01-31,Bump node-fetch from 2.6.1 to 2.6.7 (#121)
+1569eb0e183d4eaf13a76d14fb747247677d9bad,Isao Kozakai,2022-01-27,[OE-1826] Refactor getProductPriceBreaks (#123)
+3f943c7f7f96f4048b9df75f7cb6a26bfd36aee5,Isao Kozakai,2022-01-26,[OE-1826] Add latest price quote to product based on vendor and replace all usages (#122)
+e07e193e2e5a23253380b521ddcda6956d24b60b,,2022-01-24,update dependencies (#120)
+81359f2c8f5e350d9c82d370c10bb11041d09f8b,,2022-01-17,update dependencies (#117)
+17004a46882a183b085525bb603d65bb582cdada,,2022-01-17,Bump follow-redirects from 1.14.3 to 1.14.7 (#116)
+acc5550bbb20f24b87126c7cfc025e78b57a8f57,Unknown,2022-01-06,Update dependencies to latest
+0d1369a5ce82443158eb9a7f9b4e0c4f15e6333d,Isao Kozakai,2021-12-24,[OE-1876] Sharee of product should not be able to share it with others (#114)
+2b008e460fbd654b015039edefe0e4539ec1e7ad,Unknown,2021-12-14,Update dependencies to latest
+8f0cd372f1473455dd788cee9ae82213601a633b,Unknown,2021-12-06,update dependencies to latest
+03ce58228743c77e0aa026ab1545d66ed40579a8,Unknown,2021-11-30,update dependencies to latest
+232937a4ba4bf1170cbdb3ab0c7c4e47ffbcc9a3,Svetlana Ivanova,2021-11-19,update dependencies to latest
+a4c7bdc205987433b8b561fad98df495c55c6184,Svetlana Ivanova,2021-11-08,update dependencies to latest
+66300e9e968f5360fcd884afaa9772c034e2d533,Isao Kozakai,2021-11-08,Add description to type Product (#107)
+21bf0e6c0da40b904e055db1d5e73509b1b74f56,Svetlana Ivanova,2021-11-02,update dependencies to latest
+3d88dde59857707d06ea0605044924c74cfa7eb0,Svetlana Ivanova,2021-10-25,update dependencies to latest
+3aa08403923bbdde3215af378fb4473cfef13cc8,Svetlana Ivanova,2021-10-06,fix: handle multiple queries error from Mongoose
+797de56083794e6fb08b3188c1a01c0a6a94d057,Svetlana Ivanova,2021-10-04,chore: update dependencies to latest
+cf14e9adc6eec9a649731369b71c01163b570622,Isao Kozakai,2021-09-27,Make vendorCompanyId nullable (#100)
+3adbbbf029a3cfa8b0254f1722a9d86f31a27a84,,2021-09-27,update dependencies (#101)
+707ecdd5a04dd2863f4227bf9c73be9836ea706b,,2021-09-27,Bump tmpl from 1.0.4 to 1.0.5 (#99)
+27bcb3f899c944a33ce8d7e18afd4457360fd8e3,Svetlana Ivanova,2021-09-24,[OE-1765] Add isOwnerCompany field to product type
+22e7fe7c03d9633ca23c3f3e09c96e3e7eb386ba,,2021-09-20,update dependencies (#98)
+e62c6cb55c7a2b41b9a912952d5729c6e5d52c4a,,2021-09-20,Bump axios from 0.21.1 to 0.21.4 (#96)
+81319e06ed6e518cae4e09619d12cdca8c42630b,,2021-09-13,update dependencies (#97)
+2c4b4b1647a4f795beef25eb573103bcaf4531af,Viatcheslav Ivanov,2021-09-08,refactor: revert node-fetch to 2.6.1
+828a17c414e313b6816d897ff70c97101ffcfce4,,2021-09-07,update dependencies (#95)
+4ae580325627a6dc3d05a80371cf6392554e593c,,2021-08-30,update dependencies (#94)
+9abb2a00f33031bdfb8e224842d959621cc0910e,,2021-08-23,Bump browserslist from 4.14.7 to 4.16.7 (#92)
+86a187f16c5dbdb78afd2d4245a6e784333a842e,,2021-08-23,update dependencies (#93)
+67c0c64c9273a8513f9a3ae3ad016225f46bc57d,,2021-08-16,Bump path-parse from 1.0.6 to 1.0.7 (#90)
+9607e77815f0a7b8049f53580d0727881a9f091a,,2021-08-16,update dependencies (#91)
+e311764055871497b3dadd649a98fde738fcbd47,,2021-08-09,update dependencies (#89)
+76c95aa6a8713a544b88213e6376d3c4eab0c19f,,2021-08-03,update dependencies (#88)
+f22d41ce1233c6ad50e18c7bc807da07cc25b555,,2021-07-26,update dependencies (#87)
+7383c14b99a88941365f33bbb1e72c0b30fdc516,Svetlana Ivanova,2021-07-25,[OE-1632] Add sharing to product type
+628e88967d0da0c552596cba9eb7d47433a782da,Viatcheslav Ivanov,2021-07-22,fix: not return null values for production type
+d675c64f54b092db522339580ce98280ceead737,Viatcheslav Ivanov,2021-07-20,[OE-1685] Fix context
+de2a58a5ff0352f88652ae78cd3739566fc1ea97,,2021-07-20,Update dependencies to latest (#86)
+82cbe6f4272fdd6f64e2f549b296611f02525d29,Svetlana Ivanova,2021-07-14,chore: add null case for product.production.type
+118b0b23ecdf379882d05122563ea2e03c14811d,,2021-07-12,update dependencies (#85)
+7584511a67eb0708c8b31fe3141035552a65c27e,Svetlana Ivanova,2021-07-09,"[OE-1632] Add production scale, complexity and type to product (#84)"
+8ba1c9f1cf02a586413e338cafe23a1f0d783d94,,2021-07-05,update dependencies (#83)
+fe9c56bdb00ea6464171b71c69e86a2774add9ae,,2021-06-28,Update dependencies to latest (#82)
+094c8444410fc4ede426a372d43393d3eef204de,,2021-06-22,Bump glob-parent from 5.1.1 to 5.1.2 (#80)
+ef006f311d47af9d270dec7455a2ad12bd2f97d4,,2021-06-22,Update dependencies to latest (#81)
+82ed20f9fdd019e3fbb26be003790e99b4d8852e,,2021-06-14,Bump normalize-url from 4.5.0 to 4.5.1 (#78)
+41f7a9fc213242d5a995629911d891e7b150588a,,2021-06-14,Update dependencies to latest (#79)
+045f262167e5b1d806153b4bf70d91a4cca09a3c,,2021-06-08,Update dependencies to latest (#77)
+9f0afe16aee0267c9fb0c1247ef355b5e261e6c3,Viatcheslav Ivanov,2021-06-04,[OE-1603] Create new Flex Printing capability
+1a98f3ef337391db62e1ec63afb894d3b8cf2bfe,,2021-06-01,Update dependencies to latest (#76)
+973eefef8b96808aafbba2636b79ac4027430a54,,2021-05-25,Update dependencies to latest (#74)
+0cede7f5b0ff28d3d483b8e0f830d64b53c94482,,2021-05-17,Bump hosted-git-info from 2.8.8 to 2.8.9 (#72)
+877f74c8f220a9a8e3857362c74be6099557b4b1,,2021-05-17,Update dependencies to latest (#73)
+5ae05c8285a4dba9b0e7afaa44e7181c65c0b7e2,,2021-05-10,Update dependencies to latest (#71)
+70208135570339a248ca6272615fe194277d99ab,,2021-05-06,Update dependencies to latest (#69)
+7b9c309735aa0a49f9291567c15d2b8a30d201ea,Isao Kozakai,2021-05-04,[OE-1480] Add parseInt to judge isReorder (#70)
+b0427450c3d2f0be79e63bc2fdfd8cc0d1a23644,,2021-04-27,Update dependencies to latest (#68)
+15f8b5e38a9f6f31decdd8f8ca5c1b82dfc94308,,2021-04-19,Update dependencies to latest (#67)
+bfeffa297974391862b95dccb28b0fab84b39fc9,,2021-04-13,Update dependencies to latest (#65)
+5fcecf9b5ade454d9d4094dc42400add85916d0c,Carlos Renato Salim Campos,2021-04-12,[OE-1310] Fix isReorder(#66)
+67a292bfa32859558685a47ced744b9d50b929ac,Viatcheslav Ivanov,2021-04-06,Merge branch 'main' of github.com:omnae/products-service into main
+6f5e31168186756503b39caede009d26a3cd0716,Viatcheslav Ivanov,2021-04-06,chore: default tooling charges to 0 if not available
+b23676ffb735e5a02bafd7ef741862cfa3a36fa5,,2021-04-06,Update dependencies to latest (#63)
+e5ec02bb7641ca8c71625c34389ed0cff960debc,Carlos Renato Salim Campos,2021-04-05,[OE-1310] Fix isReorder (#64)
+829cfc131f3eb466d6bc7e0735683146609be95d,,2021-03-29,Update dependencies to latest (#62)
+a41a9ec605ed37f625782f0529f6bab5718deb3c,Viatcheslav Ivanov,2021-03-24,Merge branch 'main' of github.com:omnae/products-service into main
+899bda7224d46982c3acdd0a083a720d00f1ea43,Viatcheslav Ivanov,2021-03-24,[OE-1371] Add currency to product
+50b91d7eb500d07968650eb77c45de85ad26a2ea,,2021-03-24,Update dependencies to latest (#61)
+e61c8b64ca95f993c8c358149b969927f0e1cb4e,Carlos Renato Salim Campos,2021-03-24,[OE-1310] I want to see PO production run (#60)
+ca804c676d6c1f010da101edd87687996f299ee9,,2021-03-16,Update dependencies to latest (#58)
+24a249be6ec95d63d1ad8b1bca77e244adf7f014,Carlos Renato Salim Campos,2021-03-15,[OE-1310] See Purchase Order Details : numberSampleIncluded & toolingSetupCharges (#59)
+660843e8e0737b70592b312d0057109da7e2532e,Carlos Renato Salim Campos,2021-03-09,[OE-1351] Change validation (#57)
+3b1cd27a9ed6cf846d3114dbb4ce294514349c87,Carlos Renato Salim Campos,2021-03-09,[OE-1351] Add validation to support multiple re-order (#56)
+f2ad2aff777dc4ab0a14c7ed667b1e53abd97326,Viatcheslav Ivanov,2021-03-09,update knex to latest and resolve conflicts
+f1448f0c1b5cba281b239cb38d7ebc6fab5a3bda,Viatcheslav Ivanov,2021-03-08,chore: revert knex
+c414a8f4abd67579ee3db3bc6ef6ed7bed067b4d,,2021-03-08,Update dependencies to latest (#55)
+2919c4d36701980ae0431f6099684ea94a78abc2,,2021-03-01,Update dependencies to latest (#54)
+cfb2c2a872cbcb469907ba3895f4f2d74c183cfe,,2021-02-22,Update dependencies to latest (#53)
+b9244fdb50a8493dd3c9a31802485c89d1a6e4c9,Carlos Renato Salim Campos,2021-02-19,Fix Part Sharing (#52)
+baea024f702ddf6234c381d6b8ee2732998ee486,,2021-02-16,Update dependencies to latest (#51)
+0726354d2975b3f7aa4d62e4c4de2a1b362d29b5,,2021-02-03,Update dependencies to latest (#50)

@@ -1,0 +1,824 @@
+Commit SHA,Author,Date,Commit Message
+283e00d231cfbfb28836ed71aaa97ea956d78a54,Henry Ma,2022-01-21,Created customer and vendor relationship in [CompaniesCreditRelationships] table if it is not exists in AddExistingProduct
+f89cbc09f62e1c9130c42059a92c3682ae21ed89,Henry Ma,2022-01-20,"Merge pull request #1929 from omnae/staging
+
+Merged from Staging"
+a3cb33ccc10c5e3420ee71bf9c9ecd88655ff748,Henry Ma,2022-01-19,Modified signature of UpdateCreditRelationshipCurrency endpoint
+6417a38a1ad3a93c7570630278f3e4d2760f81bf,Henry Ma,2022-01-18,Refactor UpdateCreditRelationshipCurrency parameter types to suit to be called.
+a399f858f81da9546a1677cdf6e62df5fbdc0427,Henry Ma,2022-01-18,Minor
+f0e3de8d737306c39ba63d19d68bbc3c840e93d6,Henry Ma,2022-01-18,Made endpoint of UpdateCreditRelationshipCurrency async
+e581d4c871033e3191b7e3bebb0281c1e6c89ed1,Henry Ma,2022-01-18,Added new endpoint of UpdateCreditRelationshipCurrency to update/add entry of CompaniesCreditRelationship
+e28e90c086e346479b29ea46abe6936b8355773a,Henry Ma,2022-01-18,Added new endpoint of GetCustomerCurrencies to get list of customer/vendor related currencies.
+bed3096c12a7458c810b6073ed62a1f67dc848c4,Henry Ma,2022-01-14,[OE-1910] Modified CreateProductShare to avoid customer/vendor pair already existing.
+f076949563934916bc3dc866afd0450c6fd2f618,Henry Ma,2022-01-10,"[OE-1905], modified products/customer/{userId}/products/{vendorId:int} to allow filtered by partNuberRevision."
+5dce2a2464e309966fec19255f164ccb7d9373e6,Henry Ma,2022-01-07,Bug fixing
+deaa0dcb6846924c37afb942cf3fb27d9c704a80,Henry Ma,2022-01-07,[OE-1884] fixed a bug in calling GetCustomerRFQs()
+dd23fa7e02908ac635f144804d337caf875d8fb8,Henry Ma,2022-01-07,"[OE-1884], fixed bug that return enpty from api/rfqs/12764?companyId=897&type=1"
+4dbb731c5e01d652445eaf2c3708aeb5de4c6702,Henry Ma,2022-01-06,"Merge pull request #1928 from omnae/staging
+
+Merged from Staging"
+5dc3ede6323ee23834de091f5e106ec6bb7cd048,Henry Ma,2022-01-04,"[OE-1893], fixed the bug which caused the null referencing."
+96869dcbe113b1e8716f84ebdf91478eebd179ab,Henry Ma,2021-12-19,Modified to set date time to new product revision.
+d9437aa041d68bc936f5a421c425c3962fdefaf1,Henry Ma,2021-12-18,Bug fixing
+3f1e111ac4ca9b0d8eb54351b25c494ce8f5dd89,Henry Ma,2021-12-18,Bugfixing
+9ecbdf81cdfd565179a00d55ef755388ac3e001e,Henry Ma,2021-12-17,Added entry to BidRFQStatus table when create a new product revision.
+c9fcfd9a72135a3aec923ecebe0ae6e79d60e0a7,Henry Ma,2021-12-17,Fixed a bug in endpoint of GetRFQDetails when RFQ is new revision of a product.
+1ffcc4eed2018c993806dc20be2fc707c4b5036c,Henry Ma,2021-12-17,"[OE-1875], Implemented creating a credit relationship between sharee and vendor in [CompaniesCreditRelationships] when a product shared between them."
+0bf55ba7753fa42022cdb155ec1de126b184fcd6,Henry Ma,2021-12-16,"[OE-1872],made product new revision as RFQ to be visible to the vendor and state is BidForRFQ."
+c1264b8ed9a5d417e92740a690707c0420cd02f0,Henry Ma,2021-12-11,Refactor
+b09471714628def1c99fc5a57907f38d9bb7a867,Henry Ma,2021-12-10,Bug fixing
+c279307ce6a5629b55a1c8ce24d406c0b5dd3dae,Henry Ma,2021-12-01,"[OE-1851], added term as one of parameters to CreateUsersForQBO method."
+d0eb673430105fbbcfe27ddeb30f59adbec9274c,Henry Ma,2021-11-24,Bug fixing
+9613fb676b95f28c55e4bf5d99724239f4e986d6,Henry Ma,2021-11-24,Added new endpoint of GetCompanyInfo
+51f95bbf56728a532534048ec485bf7c1dfccff4,Henry Ma,2021-11-23,"Merge pull request #1927 from omnae/master
+
+Fixed a bug which displayed wrong revision when the new revision was …"
+910421202f9fcb27748ca98e5a105dbcfd5b3f15,Henry Ma,2021-11-23,Fixed a bug which displayed wrong revision when the new revision was created from an existing one.
+02a1b9c8a466d051f8bb60a651fa428ba46248c5,Henry Ma,2021-11-17,Added CurrnecyName and CurrencyText to class of CustomerInfo
+facb121fb467b2511fbbb7524c9d6fbb752cc35c,Henry Ma,2021-11-16,Got rid of Quickbooks currencyCode enum and use our own CurrencyCodes enum.
+ddddf6192c3b574493e351f16417038b056e3fff,Henry Ma,2021-11-16,Convert CurrencyCodes enum type to currencyCode enum in QuickBooks.
+3f807e62950ced84dc858062fd58ea4790d984be,Henry Ma,2021-11-16,Added output CurrencyCode from CompanyAndAddressesDTO class.
+0689abb9b6588fe57e2065a67981ec2cb73f5c9a,Henry Ma,2021-10-19,web.config
+968d130a0d70030119836b2183845f17398a9ebe,Henry Ma,2021-10-18,Bug fixing in case the Product lead time is null
+b28076fed3726a56be062daf2825ccbd7e5d40fe,Henry Ma,2021-10-15,"Merge pull request #1925 from omnae/staging
+
+bug fixing"
+a2906c5e7a130b97ebba14ac79e05d56d025909e,Henry Ma,2021-10-15,bug fixing
+4b0d4ec38a90ca578d96e55993148eafdb4a1ccc,Henry Ma,2021-10-15,"Merge pull request #1924 from omnae/staging
+
+Made exception on validation of zip/postal code for Hong Kong."
+d19e91e3a22b0f1bb4aca65388715725da9e5af7,Henry Ma,2021-10-15,Made exception on validation of zip/postal code for Hong Kong.
+b42d7e1c3bc4e0a23bf5f9b2e7844ad4bf5309c6,Henry Ma,2021-10-12,"Merge pull request #1923 from omnae/staging
+
+OE-1183, Added QuoteExpireDate for RFQBidSummary endpoint"
+80a0e262e9081ac2ff431083de85b7df74772b5d,Henry Ma,2021-10-12,"OE-1183, Added QuoteExpireDate for RFQBidSummary endpoint"
+7edf102c3ee0662762cea432b648d47be35be9ed,Henry Ma,2021-10-07,"Merge pull request #1922 from omnae/staging
+
+Updated UnityConfig for new table"
+86c3caf8a52aa059589820bb63c6a65763f109a3,Henry Ma,2021-10-07,Updated UnityConfig for new table
+9afda28cfb189213b54085b50ae3d30e5c6b0b10,Henry Ma,2021-10-07,Merge branch 'master' of https://github.com/omnae/omnae
+fb12409167c00d22a07a60090d9ee368aafe0191,Henry Ma,2021-10-07,Merge remote-tracking branch 'origin/staging'
+1742b04f23c125a7dad552198c7cd00a0f67a6eb,Henry Ma,2021-10-07,"Merge pull request #1921 from omnae/staging
+
+Merged from Staging"
+d3d91c5278107f706e49945a7c1e9bc09f606fdd,Henry Ma,2021-10-05,Bug fixing
+e275815ee4994a030479278a47faed65f5d19d2d,Henry Ma,2021-09-30,Refactor
+d5caaaf42e6eccd6ba53cd7cdbf28b9d636b9b07,Henry Ma,2021-09-30,"Bug fixing, modified endpoint of GetProductPriceQuotes and added a new endpoint of GetProductPriceQuotesByVendor"
+e75e4e977309a394a0711fe190af0698a6b5effb,Henry Ma,2021-09-30,"OE-1798, OE1799, OE-1800, OE-1801, OE-1802, added new table of ProductPriceQuote and its related repository/service. Added new column of ProductPriceQuoteId in PriceBreaks table and its related changes. Created new endpoint of GetProductPriceQuote."
+de6b2ef1406661db30b2d9b1ade6bcf833b304cc,Henry Ma,2021-09-26,"OE-1708, group the ProductDto list with combination of (PartNumber, PartNumberRevision) and selec the last."
+c0b694610d0209ac115b1d53d6438f68266e12b2,Henry Ma,2021-09-23,"Refactor, enabling upload any number of product files user may want to. (removed limitation of uploading product files) - OE-1765"
+2870256c412e1640f388d772cee06c321baac247,Henry Ma,2021-09-23,"OE-1795, Added new column of Currency for Company table."
+d0d04d7e2b3e91ebbc223cee460d70f248d64099,Henry Ma,2021-09-14,"Merge pull request #1920 from omnae/staging
+
+Merged from Staging"
+e94d45ac3463e545721d663158ce2aa038b73c98,Henry Ma,2021-09-10,"Merge pull request #1919 from omnae/master
+
+Merged from Master"
+ec16a49bffd93dc15e6da6b8ee900d4480aa0441,Henry Ma,2021-09-10,"Merge pull request #1918 from omnae/master_hotfix
+
+Removed product description from notify emails."
+d259b545861d8fb48f9c2141a77d3e74237d15bd,Henry Ma,2021-09-10,Removed product description from notify emails.
+51be64ddcbb28740b29fc0671640408067ac9e8e,Henry Ma,2021-09-10,Fixed a bug may potential causing null reference.
+4794bf347ce8192df4ce6702b2222c32c771e900,Henry Ma,2021-09-01,Fixed a bug when AvatarUri is null.
+7545684e15e332534d2bbecafe64345a038561b1,Henry Ma,2021-08-30,Refactor
+f1b47fcf54313b9bf2f67fc11883d2dfcf082790,Henry Ma,2021-08-30,Continue
+38e12ea0d30acd18d62c60652ba54edf5d9666ea,Henry Ma,2021-08-30,Added FKey in ProductStateTracking table to point to Product table
+2ceb8a1f9b4f4ec8addd8b653fcf5ff5592f9462,Henry Ma,2021-08-29,Fixed a bug in GetCompletionStatistics endpoint
+fe98451d7d76fae6f62e70f44041c937eec8a1d6,Henry Ma,2021-08-27,Added new endpoint of GetCompletionStatistics OE-1759. Fixed a bug for OE-1755
+5d50b8aa18bfcb4ac6317991be254f65e48fa14c,Henry Ma,2021-08-27,Made parameter companyId as [FromUri]
+bbebe16092ae3d8c32eafe6d7291b2c34d9a8c7b,Henry Ma,2021-08-27,Modified totalNcrCount calculation format when set OrdersConformanceRate value
+8b56fcc75012daa533b93e947a51dfd792fbfc94,Henry Ma,2021-08-27,Added new endpoint of GetCompanyQAStatistics.
+d0410865e998756aa1b2c5d4a5dde0fd9cb9d2ae,Henry Ma,2021-08-25,Added start/end datetime range for GetChartData endpoint
+f604ad867fa48a4c46db939ce0f093c8620d3685,Henry Ma,2021-08-25,Modified GetRFQStatistics to allow show total number of customers for a vendor
+13ade3a95c52911bcbd1b0e1ffdef115aa9733b3,Henry Ma,2021-08-19,"Merge pull request #1917 from omnae/master
+
+Merged from Master"
+bfc4a30e8f4cc14fa0fb93211d3be07c2b8b76c5,Henry Ma,2021-08-19,"Merge pull request #1916 from omnae/master_hotfix
+
+Removed product description from the email subject."
+ef6bf4854777b503ae8df985be455b99d1c284f7,Henry Ma,2021-08-19,Removed product description from the email subject.
+62dfb11f4bd2d6767f0c5ed453c350c7092d68bb,Henry Ma,2021-08-19,OE-1740 fixed number of  calculations for GetNCRStatistics
+f9ee6b0f2ce4ae52cad382f3a73cff0d06a2629a,Henry Ma,2021-08-18,Added new endpoint of UpdateQboIdCompanyInfo to be called by web-api.
+60e8f163e5ee3f9d25057e27ae65c887f84f0d0d,Henry Ma,2021-08-18,Added state of NCRCustomerApproval to ResolutionNCRs
+8edc1de3b28c7626d76f9d32ed73555f56c32686,Henry Ma,2021-08-16,Added GetCustomerInfo endpoint
+60c81ebdbf91ee4dc26372156c65d48df0267f0a,Henry Ma,2021-08-16,"OE-1740, modified range of DisputeNCRs to inlcude state of NCRRootCauseDisputes"
+29cfe175b3791bf8890524be6ceb3b869661cd04,Henry Ma,2021-08-16,"OE-1738, bug fixing."
+8563c60517eb725563f4081cdb4cea72f11de4af,Henry Ma,2021-08-13,Minor
+b7a21bb480de283641ebb194425a876466870b09,Henry Ma,2021-08-13,"OE-1733,  added new endpoint of companies/{companyId:int}/GetNCRStatistics"
+92c6e408d3408a3e9938de12385e8eed8f0ae0bc,Henry Ma,2021-08-13,"OE-1734, added new endpoint of GetRFQStatistics"
+85447b02cb37535f6862b1fde457be83037daf23,Henry Ma,2021-08-12,"OE-1731, added new endpoint of GetActiveRFQs."
+135ef9e2e16eaa1088e3e2831c3fd920c161734f,Henry Ma,2021-07-28,"Merge pull request #1914 from omnae/staging
+
+Merged from Staging"
+2e11c569dc448b80d53895d0839e43c1ae2db306,Henry Ma,2021-07-28,"Merge pull request #1913 from omnae/OE-1632
+
+Added missing buildType and material for OE-1632"
+f5782338ab9f5c1f54c0d2414dff5693e0eaf7f1,Henry Ma,2021-07-28,Added missing buildType and material for OE-1632
+0ee68748602da2f7cf0deaee6904787f06f3ab78,Henry Ma,2021-07-28,"Merge pull request #1912 from omnae/staging
+
+Merged from Staging"
+433ac87cbf19b93082d2985b7244bb76631a9dc2,Henry Ma,2021-07-28,"Merge pull request #1911 from omnae/OE-1632
+
+Fixed a typo which caused the missing of HarmonizedCode."
+71212ebc28bff0d8b6500184cf32feb234f1e502,Henry Ma,2021-07-28,Fixed a typo which caused the missing of HarmonizedCode.
+7c53b9476e0cc0271907da30af4cdac1c178dc7b,Henry Ma,2021-07-27,"Merge pull request #1910 from omnae/staging_hotfix
+
+Added AsyncTransactionScope wrapper to make sure db doesn't get updat…"
+e038518389ecc328ecd2d836327e1506b03531bf,Henry Ma,2021-07-27,Added AsyncTransactionScope wrapper to make sure db doesn't get updated until creating company action success.
+100b3c8c185e7159023d721425c68d3bb483ef9f,Henry Ma,2021-07-27,"Merge pull request #1909 from omnae/master
+
+Merged from Master"
+45a8893fa8d4e6b32e2858e8461049fa7217ceed,Henry Ma,2021-07-26,"Merge pull request #1908 from omnae/master_hotfix
+
+Fixed a logic bug caused by recent changes when do reorder for resell…"
+1230fb0bc85c5e9962b118dbb0ffdeebce69051b,Henry Ma,2021-07-26,Fixed a logic bug caused by recent changes when do reorder for reseller users.
+3a4fd6e302084ffb23ae2c8ae244bf77a86ee116,Henry Ma,2021-07-26,"Merge pull request #1907 from omnae/master_hotfix
+
+Merged from Master hotfix"
+8a6c62c11f058e7c9507289fab10cfaf4feeffaa,Henry Ma,2021-07-26,Avoid double encoding space in a uri string.
+b8584e14b2a833d9614393dea504c8344014a199,Henry Ma,2021-07-25,Minor
+26b15307b766cf11b94860e87b28d262d64ae687,Henry Ma,2021-07-25,web.config for PROD for old system
+0cdfaaa413a7e11562c3ae0b32d373c94ef6000f,Henry Ma,2021-07-23,"Merge pull request #1906 from omnae/master
+
+Merged from Master"
+6b698af3c552bca7f9d48643eb45baadc322a9f9,Henry Ma,2021-07-23,"Merge pull request #1905 from omnae/master_hotfix
+
+Merged from Master hotfix"
+70b3fd2ecd92e9f2ddd11476166d3fddffad13e4,Henry Ma,2021-07-23,Refactor
+efb6ccf0f7adf524be39f1a05473a44346f71ba5,Henry Ma,2021-07-21,"Merge pull request #1904 from omnae/staging_hotfix
+
+OE-1632, Removed dup entries from querying PartRevision result"
+501ed7ddaabce4cf967f3f7c50ff9343e53a8136,Henry Ma,2021-07-21,"OE-1632, Removed dup entries from querying PartRevision result"
+0b33c238c940764d168403dafa9610a5674437e0,Henry Ma,2021-07-21,"Merge pull request #1903 from omnae/staging_hotfix
+
+Included back itself in the revision list result."
+fd773ccf6925a2f300ab573c99d0f1dbe5642e44,Henry Ma,2021-07-21,Included back itself in the revision list result.
+70654fb029d19888a4f7e370e3d9f7d96ef8ca24,Henry Ma,2021-07-21,"Merge pull request #1902 from omnae/staging_hotfix
+
+Merged from Staging hotfix"
+bbb43172e03fb86c6fde6fc8c09b06f2d298ede6,Henry Ma,2021-07-21,"OE-1632, fixed dup issue in listing all revisions of a part number."
+85a1b6e9cb906db1ef22d23ac0a74f2d9d83f086,Henry Ma,2021-07-21,web.config
+79a9790dd4ade6b32e7444c99ac76d65b9366757,,2021-07-21,"Bump RestSharp from 105.2.3 to 106.12.0 in /Libs
+
+Bumps [RestSharp](https://github.com/restsharp/RestSharp) from 105.2.3 to 106.12.0.
+- [Release notes](https://github.com/restsharp/RestSharp/releases)
+- [Changelog](https://github.com/restsharp/RestSharp/blob/dev/releasenotes.md)
+- [Commits](https://github.com/restsharp/RestSharp/compare/105.2.3...106.12)
+
+---
+updated-dependencies:
+- dependency-name: RestSharp
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+62552ef41cb1d3b07e1e666ccde2aa4ed9f8ccca,Henry Ma,2021-07-21,"Merge pull request #1899 from omnae/master_hotfix
+
+Merged from Master hotfix"
+6d1fbe9c6c713a7524dec173d52c6c80fbaba65f,Henry Ma,2021-07-21,"OE-1686,  I want Inviter company to be visible on Invitee Hubspot Account."
+658ce555cc3bf0ad904889ef25844f0c9f7b599e,Henry Ma,2021-07-20,"OE-1621, additional contact to be created in Hubspot under company when new company user is invited and accepted"
+083b0e799e7a2d518b27cf93f9dd59dceb6d7261,Henry Ma,2021-07-19,Updated web.config for app env.
+911368a8ba6d3e94a51d1e69c84073e5c448adcd,Henry Ma,2021-07-15,"Merge pull request #1897 from omnae/OE-1632
+
+Oe - 632"
+904f9927045d4298820935e118fe148bae9041ce,Henry Ma,2021-07-15,Typo
+22e16d0ce2300fda7cc084da3c0394b95886f993,Henry Ma,2021-07-15,Modififed so that GetPartRevisionList will return all revisions ssociated to a part number
+ce3f57a723937d7dd027d06385b801b832ee256b,Henry Ma,2021-07-15,"Merge pull request #1896 from omnae/master
+
+Merged from Master"
+c4c5f452599dfe6b98ca22ddc6f319953c56ff90,Henry Ma,2021-07-15,"Merge pull request #1895 from omnae/master_hotfix
+
+Minor"
+9b977fe9853ed4804a4818a481795b55542d5e40,Henry Ma,2021-07-15,Minor
+a9f44f0e7aa26518483c3de1a0833c34c7327170,Henry Ma,2021-07-15,"Merge pull request #1894 from omnae/master_hotfix
+
+Merged from Master hotfix"
+25fded2c5b78767657e7fcad4b5c2c60db1f2e50,Henry Ma,2021-07-15,Fixed multiple bugs in creating/updating contacts for companies.
+d55d762b9f3903d6471a56fdcb37b23f84907e76,Henry Ma,2021-07-13,"Merge pull request #1893 from omnae/master_hotfix
+
+Merged from Master hotfix"
+4f8d2c31f5d94766977c775e59ff380442ecd387,Henry Ma,2021-07-13,Merge branch 'master_hotfix_bak' into master_hotfix
+d889a36e8daed74080bb39b9eea1635f2b3e7f40,Henry Ma,2021-07-13,Merge branch 'master' of https://github.com/omnae/omnae into master_hotfix
+a553626f701ef7a87178e505a3ba308d9df269d5,Henry Ma,2021-07-13,Bug fixing.
+212e927b94b61ce9876af72349d730e2201bc8b9,Henry Ma,2021-07-05,"Merge pull request #1891 from omnae/OE_1578
+
+OE-1513, made customer and vendor partners each other"
+216ae95f387335ff3ebc11ffe9bb39d1712a9996,Henry Ma,2021-07-05,"OE-1513, made customer and vendor partners each other"
+e19fa78f2799a758781e330ee37c39f505687181,Henry Ma,2021-07-05,"Merge pull request #1890 from omnae/staging
+
+Merged from Staging"
+06ba9a9a21e059f86656e6b7af95cfaedcecdf75,Henry Ma,2021-07-02,"Merge pull request #1888 from omnae/OE_1578
+
+Created new relationship in [CompaniesCreditRelationships] table betw…"
+53ddd19adba820bd057d1f57b1828b6d22030cfa,Henry Ma,2021-07-02,Created new relationship in [CompaniesCreditRelationships] table between the vendor who is awarded RFQ and this customer when calling endpoint of CustomerReviewBid
+bc4535a949bee8309e826b9a520116640f60bd79,Henry Ma,2021-07-02,"Merge pull request #1887 from omnae/staging
+
+Merged from Staging"
+4b949dca83a88589ac275efdd0f67bd55ee83247,Henry Ma,2021-07-02,"Merge pull request #1886 from omnae/OE_1578
+
+Bug fixing, and filter out inactive companies."
+a02860b6a812134ffc201c11b8d7f3131b4c21ea,Henry Ma,2021-07-02,"Bug fixing, and filter out inactive companies."
+07c655133bd1619ec2c7c7c58cc96e387285f4a3,Henry Ma,2021-06-30,"Merge pull request #1885 from omnae/OE_1578
+
+OE-1578, disable core-service notifications on  state changes for pur…"
+cd5172809b061a55e9bacebeb2b1f24cf8afb558,Henry Ma,2021-06-30,"OE-1578, disable core-service notifications on  state changes for purchasing orders."
+fda95bf63ef81243a876f1e302f15520c5071e54,Henry Ma,2021-06-29,"Merge pull request #1884 from omnae/staging
+
+Merged from Staging"
+6fbdcd31f008aed84c49429fb7a6b23701610218,Henry Ma,2021-06-29,"Merge pull request #1883 from omnae/OE_1578
+
+Fixed a couple of bugs when creating a new part revision and place ne…"
+40a9e3320f52cd674b19452c8bbe36378319cd8c,Henry Ma,2021-06-29,Fixed a couple of bugs when creating a new part revision and place new order.
+915af30812f720b0b479bab656e8ed0a26cd931c,Henry Ma,2021-06-18,Merge remote-tracking branch 'origin/master' into master_hotfix
+629eb8d73932d281dc019796eaedc371a6793427,Henry Ma,2021-06-18,"Merge pull request #1882 from omnae/staging
+
+Merged from Staging"
+633dbdb3f7f56c71ec10929285326a9f2faabaca,Henry Ma,2021-06-18,"Merge pull request #1881 from omnae/OE_1578
+
+Oe-1578, bug fixing"
+3b4cac555b08573412e5864e7aedd08b2b05416a,Henry Ma,2021-06-18,"Merge branch 'staging' into OE_1578
+
+# Conflicts:
+#	Omnae.BusinessLayer/ProductBL.cs"
+8f95b6df7036a9395bf1cacaab98cb776cfe1e0e,Henry Ma,2021-06-18,"Merge pull request #1880 from omnae/master_hotfix
+
+Fixing a bug in case for the old data product.RFQQuantityId are nulls."
+be1c0979c66099160bd15bdfc82c16e9ab7b2f13,Henry Ma,2021-06-18,Fixing a bug in case for the old data product.RFQQuantityId are nulls.
+09d1bf625b092c38686d5f4557b9075fc0dc1968,Henry Ma,2021-06-18,OE-1625 bug fixing and OE-1578 for disable notification for legacy order.
+cc9e2089082f29a7a78f28ccb0de54f55de3877a,Henry Ma,2021-06-17,"Merge pull request #1879 from omnae/master
+
+Merged from Master"
+abeedc90d4a8def79bcee36efe28630a8cb870b8,Henry Ma,2021-06-17,"Merge pull request #1878 from omnae/master_hotfix
+
+Bug fixing, OE-1625"
+7491c25c87a30d6e2023459247cc3a91f61ef2cd,Henry Ma,2021-06-17,"Bug fixing, OE-1625"
+95c6e76192d1396e774450456161cef480628707,Henry Ma,2021-06-16,"Merge pull request #1877 from omnae/master
+
+Merged from Master"
+df8996442e16ea3352f9fe10326d89fb60210592,Henry Ma,2021-06-16,"Merge pull request #1876 from omnae/master_hotfix
+
+Master hotfix"
+57a4274b03a319d391c580231110aa8626302de6,Henry Ma,2021-06-16,Modified on UserSyncService.
+1d35509410a77927f21746a92eea9aa7d120dd98,Henry Ma,2021-06-14,Reversed EntityFramework version.
+8373ae72fe26e8aaefb6b62ac6f52406516c50fd,Henry Ma,2021-06-14,Merge remote-tracking branch 'origin/master' into master_hotfix
+42702e05e7647b89673532ab50e608e6cad04388,Henry Ma,2021-06-14,web.config
+d51bfa3c7be3cd2bcd46cd5e7b809022f74ab23f,Henry Ma,2021-06-14,"Merge pull request #1875 from omnae/staging
+
+Merged from Staging"
+6f15cae9acd576c9aa74c12d37e6cb6f7a7c9836,Henry Ma,2021-06-12,"Merge pull request #1874 from omnae/OE_1614
+
+Merged from Oe_1614"
+d59727eb35e5094db7899b96118ced1634122e38,Henry Ma,2021-06-12,Typo
+f75c93a169a12a394017a5ffb8e6f6a8d7333018,Henry Ma,2021-06-12,"OE-1614, Added new columns of Role, CustomerRole, VendorRole to AspNetUsers table"
+e91f0890e2094ebdc1e308bb1913f07e799b3350,Henry Ma,2021-06-12,Added auth0 roles to User table
+f539b19dd41054a7b5c8d26157a086cd1fce02ca,Henry Ma,2021-06-08,"Merge pull request #1872 from omnae/staging
+
+Merged from Staging"
+f8f72d819fc35171dc6183758c74b2c2173a8905,Henry Ma,2021-06-03,"Merge pull request #1868 from omnae/staging_hotfix
+
+OE-1603, material name changes"
+09e07875cb6593263b5991ec87f2150c373252e0,Henry Ma,2021-06-03,Material name changes
+0399bb18c959b5df0e9f0a1b7a02b5d2649a80a4,Henry Ma,2021-06-02,"Merge pull request #1867 from omnae/staging
+
+Merged from Staging"
+2887f26d59ddea768bae872fd13adcfcb8f91b6e,Henry Ma,2021-06-02,"Merge pull request #1866 from omnae/staging_hotfix
+
+Staging hotfix"
+615e4a29104e890670f193adf7094090a4209f84,Henry Ma,2021-06-02,Bug fixing
+f6193371919310f845b9bb778dc4a54cecddd20d,Henry Ma,2021-06-02,web.config for Staging
+d8b165323ceac5e139b220141e90939dde2ff373,Henry Ma,2021-06-02,"Merge pull request #1864 from omnae/master
+
+Merged from Master"
+31b44f9c04c5e5bb4f951c6bb52f2bbfb0d18ded,Henry Ma,2021-06-02,"Merge pull request #1863 from omnae/master_UserSyncService
+
+Added new capability as  ""Wifi blocking wallpaper"""
+f37a2678207f4d91cc504899fab789a2a8e53206,Henry Ma,2021-06-02,"Added new capability as  ""Wifi blocking wallpaper"""
+4e3ce683bd32f00f08a28c8e8f316edfaf187271,Henry Ma,2021-05-28,"Merge pull request #1861 from omnae/master
+
+Merged from Master"
+ec1117ba2bf949d120e02b8a87b9376720d8b806,Henry Ma,2021-05-28,"Merge pull request #1860 from omnae/master_UserSyncService
+
+Fixed a bug in SendNewUserToCoreApi which couldn't insert a new record to AspNetUsers table when Id type is string."
+0d6a1f7445002e4c003838a307eca79f6262371e,Henry Ma,2021-05-28,Fixed a bug in SendNewUserToCoreApi which couldn't insert a new record to AspNetUsers table with Id type is string.
+55be415203746e49ee327a3a657fae19ff07f3b2,Henry Ma,2021-05-28,Fixed a bug  in SendNewUserToCoreApi.
+5479317aab30fdba625c185ac6874c93fc65abd0,Henry Ma,2021-05-27,"Merge pull request #1859 from omnae/master_hotfix
+
+Merged from Master hotfix"
+fbe21c0b7eb85b7a268dd1520c2f3aa3ae67181a,Henry Ma,2021-05-27,web.config
+170fc123a407c2863c27e627152a6e09762fcfb6,Henry Ma,2021-05-27,"Merge pull request #1858 from omnae/master_hotfix
+
+Patch for Prod/Demo in fixing a null reference bug"
+bb4f54b4c2f2c44b19e04c86b947faf09bda8176,Henry Ma,2021-05-27,Fixed a bug of null reference. Web config formating changes.
+65252ea7f7c5fc9343165a3375b14cf15f064106,Henry Ma,2021-05-27,Merge remote-tracking branch 'origin/master' into master_hotfix
+0418e09f56e714d022851c72a1589fe3391d66a9,Henry Ma,2021-05-27,Modified clientSecret for BackgroundWorkers
+7ba01414d5aef2fecc48d128dcd51b3c26e90cbc,Henry Ma,2021-05-26,"Merge pull request #1857 from omnae/staging
+
+Merged from Staging"
+80208d0f2410bbc773a073095396ca2d615bf8b0,Henry Ma,2021-05-21,"Merge pull request #1856 from omnae/OE_1557
+
+OE-1557, Added new column of IsPrimaryContact to the table of dbo.Asp…"
+7c2d6ac9fdff8a582e3d676112082fb52c3f72ef,Henry Ma,2021-05-21,"OE-1557, Added new column of IsPrimaryContact to the table of dbo.AspNetUsers. Modified UserSyncService in BackgroundWorkers to set IsPrimaryContact if it is the first user in the company."
+d5392270382ca6cf0f58643255455659495f89d0,Henry Ma,2021-05-18,"Merge pull request #1855 from omnae/staging
+
+Merged from Staging"
+7f4bc520e0c57d22105c5c98fed795d6ed7cf053,Henry Ma,2021-05-18,"Merge pull request #1854 from omnae/OE_1541
+
+OE_1544"
+cf403b577281acdffffca9946aa4da3e8cfbe29d,Henry Ma,2021-05-18,"OE-1544, Same changes for GetCompanyParntersWithQAStats"
+b35ed53f70d968d2384943e7ae734f3301536ceb,Henry Ma,2021-05-18,Include myself when type is Vendor.
+7dcf196e64b82beb5c22032ba9dc28fb6ab85316,Henry Ma,2021-05-18,"Merge pull request #1853 from omnae/staging
+
+Patch for OE-1544"
+71f99e79b0fda89f4d285e64504144ca0c14733d,Henry Ma,2021-05-18,"Merge pull request #1852 from omnae/OE_1541
+
+Filtered out myself from my partner list"
+e3f86d6ddb23d3158bea07ae364607b909b400fc,Henry Ma,2021-05-18,Filtered out myself from my partner list
+3938845a47dc9105f5c2049243e3b3bfde6116bc,Henry Ma,2021-05-18,"Merge pull request #1851 from omnae/master_hotfix
+
+Master hotfix"
+e3b7ee23dd1172f54c66083009e64139f7083626,Henry Ma,2021-05-17,"Merge pull request #1850 from omnae/OE_1541
+
+Merge remote-tracking branch 'origin/staging' into OE_1541"
+30603360ec8a4b583e140a6086dda811c1301dd0,Henry Ma,2021-05-17,Merge remote-tracking branch 'origin/staging' into OE_1541
+2e67fbe89ffcf983879cbabc3184b1f2fe41ff72,Henry Ma,2021-05-17,"Merge pull request #1849 from omnae/OE_1541
+
+Refactor"
+03bde624615c2ecc074b8d52eb4619b4885fa32f,Henry Ma,2021-05-17,Refactor
+a80f74d9b035e60a27829dbfae9c66c982d4e99b,Henry Ma,2021-05-17,"Merge pull request #1848 from omnae/master
+
+Master"
+5aeea9c1eee6487e7bc3232414859780c4637435,Henry Ma,2021-05-17,"Merge pull request #1847 from omnae/master_hotfix
+
+Removed product description from email subject line."
+b161ee947867d19fc69797304d8397251efbe566,Henry Ma,2021-05-17,Removed product description from email subject line.
+f0ec18c666d52c9553c583cc580a805fb9451e90,Henry Ma,2021-05-13,"Merge pull request #1846 from omnae/master_hotfix
+
+Added maxQueryStringLength = ""65536"" to avoice error of: ""Request fil…"
+15e009505af3acd62d71399f76e738e5625f7673,Henry Ma,2021-05-13,"Added maxQueryStringLength = ""65536"" to avoice error of: ""Request filtering is configured on the Web server to deny the request because the query string is too long."""
+f5f62bf3bde6a4aa7f7e470bc727cbd1c2edc5dd,Henry Ma,2021-05-13,"Merge pull request #1845 from omnae/OE_1541
+
+Bug fixing in displaying Quality graph."
+74e625c38d3478a5621fbb19471754e96120ae48,Henry Ma,2021-05-13,Bug fixing in displaying Quality graph.
+14f16d886745132320a55c5c69bf47531aac8942,Henry Ma,2021-05-11,"Merge pull request #1844 from omnae/OE_1541
+
+OE-1541 disable email notification when create a new order for new wo…"
+7a249438983979f4a056af3a1e747bec15f0e852,Henry Ma,2021-05-11,OE-1541 disable email notification when create a new order for new work-flow.
+1902682b0c6bd390fb91dc01a0f488b56f9b15e9,Henry Ma,2021-05-11,"Merge pull request #1843 from omnae/OE_1538
+
+Added flag of needCheckPartnerLimits to endpoint of PostOnBoardingVen…"
+2441ed85af37f8ae76ec0db2492cddfc412d7664,Henry Ma,2021-05-07,"Added flag of needCheckPartnerLimits to endpoint of PostOnBoardingVendorFiles, the flag if it is true then check if inported partners are  exceeding the threshold."
+85663fe75be4d52a040b252ab84e9d8f1141bbce,Henry Ma,2021-05-06,"Merge pull request #1842 from omnae/staging
+
+Merged from Staging to Master"
+321409c330298041d603b685844bcdf7d1be51da,Henry Ma,2021-05-06,"Merge pull request #1841 from omnae/master
+
+Merged from Master"
+5affbc05152a115a5e30346fa713fb8d052326b6,Henry Ma,2021-05-05,"Merge pull request #1840 from omnae/master_hotfix
+
+Fixed a bug in retrieving pricebreaks from database."
+5e7048f3c8dc8253b9f3a181f7e2cfbdba97e171,Henry Ma,2021-05-05,Fixed a bug in storing pricebreaks into database.
+3515ac4e398d29c4ce7f75b79ff8e4940d566cc0,Henry Ma,2021-05-04,"Merge pull request #1839 from omnae/OE_1432
+
+return a warning mesasge via BadRequest - though FE will treat this B…"
+48533dc8be9e7de5172d40aad6c9166332e07def,Henry Ma,2021-05-04,return a warning mesasge via BadRequest - though FE will treat this BadRequest as good one after pull out warning message.
+8fc13011971edcfc19af44992f4fbd418f81060c,Henry Ma,2021-05-03,"Merge pull request #1838 from omnae/OE_1432
+
+Added warning message if user tried to import duplicated parts while …"
+33a1ec7945c302d7963938e64f219ccd6b1c8ab2,Henry Ma,2021-05-03,Added warning message if user tried to import duplicated parts while onboarding.
+ed72643f41d14b753b99977a853184bbee17bdbf,Henry Ma,2021-05-03,"Merge pull request #1837 from omnae/OE_1432
+
+Added taxPercentage into AssignTermCreditToCustomer."
+28dfc92be8d1f706175a5d76fb4926d5f67fdf80,Henry Ma,2021-05-03,Added taxPercentage into AssignTermCreditToCustomer.
+0bc1308924731aa5110fe90025237d1d28870760,Henry Ma,2021-04-30,"Merge pull request #1836 from omnae/OE_1432
+
+Bug fixing in getting Pricebreak when quantity less than MOQ."
+afb54e3acfee7d731c8dee3e2db86a05aec96c1d,Henry Ma,2021-04-30,Bug fixing in getting Pricebreak when quantity less than MOQ.
+abf58ca640ae5aaa01cfbc3aed6e3e772d1acd06,Henry Ma,2021-04-30,"Merge pull request #1835 from omnae/OE_1432
+
+Minor"
+0a5bc509751b3f1f650d83c2f6477a75471137c0,Henry Ma,2021-04-30,Minor
+8396caa025ba722ff5541b6faf312d6ca34c3491,Henry Ma,2021-04-29,"Merge pull request #1834 from omnae/master_hotfix
+
+Filtered out SaaS orders from Order History."
+d50aec3e9600b49462ee3d52ebeed377b8ec79d0,Henry Ma,2021-04-29,Filtered out SaaS orders from Order History.
+af8c78e7e9bfd28a4559bb5065d6d52a1bae52b4,Henry Ma,2021-04-29,"Merge pull request #1833 from omnae/OE_1432
+
+Merged from branch of Oe-1432"
+1053dd5295be4e1772bc2a88016fcadd3e775c4d,Henry Ma,2021-04-29,Copied back web.configs for Staging env.
+ae804caeac0727e7a20376554a1d71413862a6a6,Henry Ma,2021-04-29,Merge remote-tracking branch 'origin/master' into OE_1432
+d3d9fde7c3eaf0296d71666947705f313cdbafae,Henry Ma,2021-04-29,"Merge pull request #1832 from omnae/master_hotfix
+
+Fixed a bug to when carrierName not presenting."
+623914cdc3995f0ca1ef271078fe79b489f5a343,Henry Ma,2021-04-29,Fixed a bug to when carrierName not presenting.
+e2a608f3e1f5282225d924425a89fddaca0beb87,Henry Ma,2021-04-27,"Merge pull request #1831 from omnae/hotfix/onboarding
+
+Hotfix/onboarding"
+5a8d8ed31c1cde30b75cd3d4b0c81af478942502,Rafael Sliveira Cordeiro,2021-04-27,Fix Validation for Prices
+fb88bba8750d4d243d128d2250b355402a504713,Rafael Sliveira Cordeiro,2021-04-26,"Merge pull request #1829 from omnae/fix/updateNuget
+
+Update Nuget to Improve Security"
+a62b96a4f4cfa249db20fc6748567ce0c7bf2497,Rafael Sliveira Cordeiro,2021-04-26,"Merge pull request #1828 from omnae/feature/taxToCreditRel
+
+Add Tax Field - OE-1373"
+739fc164b471c6a8d037e6808c5632b33ec4c46b,Rafael Sliveira Cordeiro,2021-04-24,Update Nuget to Improve Security
+4025f7f5185f1e8743e14d1ffb31a55195f3c0f5,Rafael Sliveira Cordeiro,2021-04-24,Add Tax Field
+0ab3e73c9818ade062cc2ffe3164e102266c15f1,Rafael Sliveira Cordeiro,2021-04-24,Refactor
+b0276ecf3b9ab9c55b45df81248813cbebe5a3fc,Henry Ma,2021-04-23,"Merge pull request #1827 from omnae/OE_1432
+
+Removed dup check when import parts through onboarding."
+6c5b324312aa52edeadce4a70dcff99d9c6eb4aa,Henry Ma,2021-04-23,Made to show order details for all orders including completed orders.
+73d53366e1760a1517aaaf35734b8dba45698a19,Henry Ma,2021-04-23,"Merge pull request #1826 from omnae/master_hotfix
+
+Patch which allow to show order details including completed orders."
+710dddcf63d6039d70855535c4ded81a2ffd8faa,Henry Ma,2021-04-23,Inlcuding all complete orders too.
+3ed5e0d1cdbd139c87611a0a03dc4c78ac2d71c5,Rafael Sliveira Cordeiro,2021-04-23,Refactor
+0c3eb1441e76cc715c1604f90e357504e4fb7aab,Rafael Sliveira Cordeiro,2021-04-23,Update Model
+fb6f251a4ac7bef88b8cb08c05bc31b3d6ed9466,Henry Ma,2021-04-22,Removed dup chech for product inported from spreadsheet file.
+65b0a6d9a05b3daf5d867f7ab700017656a16cab,Henry Ma,2021-04-22,"Merge pull request #1825 from omnae/OE_1477
+
+Skip order quantity under MOQ in CalculateAsync."
+a4d754a982e61cf74571dc9ee20e01ce4a6cd20f,Henry Ma,2021-04-22,Skip order quantity under MOQ in CalculateAsync.
+102444884294862b4d82384e83f2a0d1761d17fe,Henry Ma,2021-04-22,"Merge pull request #1824 from omnae/OE_1477
+
+receiver email changes, made PlaceOrder able to order a quantity unde…"
+437cab7cb7d191af6add78842a09419432f3f453,Henry Ma,2021-04-22,"receiver email changes, made PlaceOrder able to order a quantity under MOQ"
+c0672fed2feab28290c9d1704cfd9e4ae93450ea,Henry Ma,2021-04-21,"Merge pull request #1823 from omnae/OE_1477
+
+Removed check for dup in CreateRFQ. Added new endpoint of RemoveOrder() which will remove a not started o…"
+76dfa025811291981a357ff9153183459ac6725d,Henry Ma,2021-04-21,"Added new endpoint of RemoveOrder() which will remove a not started order in order to redefine a new Production Run, OE-1477"
+8179c44f758befef4666d4a7c3d4ada98965d27f,Henry Ma,2021-04-21,Increased timeout for transaction.
+02d655e13d67c8e9a4f02ad31d79d50718f23257,Henry Ma,2021-04-21,Merge branch 'master' into master_hotfix
+b931fc52788d6096518afb132819c1f04711615f,Henry Ma,2021-04-21,web.config
+05f5e1007b4de3421b3ea97f24a1d290bf62e41f,Rafael Sliveira Cordeiro,2021-04-20,"Merge pull request #1820 from omnae/fix/emailSender
+
+Fix BackgroundWorkers"
+4f761e15db52d79929d8f2a64624b8ad8bcdac5a,Rafael Sliveira Cordeiro,2021-04-20,Update Profiles
+80fc6e4ab230c96247c71b5b10f273c4f171dd7c,Rafael Sliveira Cordeiro,2021-04-20,"Fix Email with Attachment error
+Fix Logging
+Change to HenryEmail"
+a087ba1ca009bba434f2ca1974c87f2a88cd0b20,Henry Ma,2021-04-16,"Merge pull request #1819 from omnae/staging
+
+Merged from Staging"
+80b323bebc61faa0b3f3f904efb2acf21c466718,Henry Ma,2021-04-16,"Merge pull request #1818 from omnae/OE_1419
+
+Fixed a bug in retrieving a pricebreak"
+9391fb2b26e7c7de3f7cf1ab55160975563433a5,Henry Ma,2021-04-16,Fixed a bug in retrieving a pricebreak
+c509aba14f9710816ca73c05fb18c48a2b1b2d7e,Rafael Sliveira Cordeiro,2021-04-16,"Merge pull request #1817 from omnae/feature/syncAuth0
+
+Feature/sync auth0"
+a4c0c3482be3eaee19c915c6762dd8cb43455d2b,Rafael Sliveira Cordeiro,2021-04-16,"Merge pull request #1815 from omnae/feature/syncAuth0
+
+Add Sync User from Auth0"
+7e5d7720537b990702553aea8f9cdfb13092d1bc,Henry Ma,2021-04-15,"Merge pull request #1816 from omnae/OE_1419
+
+Oe-1419, Created endpoint to change quantity of order"
+b10abfeb781a84d2f54d2d636a6f3f8772fddf11,Henry Ma,2021-04-15,Merge remote-tracking branch 'origin/staging' into OE_1419
+da86af58c22bd473da9d8d072fe11df2af0a1dfc,Henry Ma,2021-04-15,Same as previous
+91663c6be15cf1ef28bf3d791e3909b10b429f4b,Henry Ma,2021-04-15,"OE-1419, Created endpoint to change quantity of order"
+b301fd27a065c4cfa8c7e123aefc2d0b0e3e0e6f,Henry Ma,2021-04-15,Renamed Migration file name
+093fad0613c84bf50e312d106c617f7d36fe5252,Henry Ma,2021-04-14,"Merge pull request #1814 from omnae/OE_1418
+
+OE-1446, Changed precision from 9 to 18 to avoid overflow issue when update da…"
+95ceba64d354b8dbf594ee7222dfd57877bbb5d4,Henry Ma,2021-04-14,Changed precision from 9 to 18 to avoid overflow issue when update database.
+7754b5231e33dd3f5b2e3120f872ad5ea13db7bb,Henry Ma,2021-04-14,"Merge pull request #1813 from omnae/OE_1418
+
+Changed logic when compare with given quantity to find pricebreak ent…"
+9fa5cf339bcfe767ac9052d4ab3c19cd7c5d79bc,Henry Ma,2021-04-14,Reversed previous changes
+8c7be74613cc34671643e4466b63a5e18ca1bb96,Henry Ma,2021-04-14,Reversed some previous changes.
+a6a71ba39ec2e436db7e3cb50597f2f7d758d467,Henry Ma,2021-04-13,Removed unused code
+41d94dbbd0f8b3838227438c395775293a1a97f6,Henry Ma,2021-04-13,Changed logic when compare with given quantity to find pricebreak entries. Changed all ToolingSetupCharges to 3-digit after decimal in PriceBreak table.
+dd5617b80256834f90a058ce7a3846d3853cfd7a,Henry Ma,2021-04-13,"Merge pull request #1812 from omnae/OE_1426
+
+OE-1424, Oe-426, OE-427, OE-428, OE-429, OE-430, OE-431"
+51a8a7b825fa19aa613c3a57610949d5398f3d3d,Henry Ma,2021-04-12,"OE-1430, add 4 factors check before assign this RFQ to a vendor to avoid duplicated product to be created in Product table"
+58ce2b4fea1cea152015619114a8ecae308985bb,Henry Ma,2021-04-12,"OE-1426, OE-1427, OE-1428, OE-1429, OE-1431 and made ToolingSetupCharges to 3-digit after decimal for the sake of consistency."
+0e56b1ad45a864eae533be0dc35a8af0efeb6e02,Rafael Sliveira Cordeiro,2021-04-10,Add Sync User from Auth0
+5a2f84e53923b1353f92ee2fb567bfe91decbdcd,Henry Ma,2021-04-09,"Merge pull request #1811 from omnae/staging
+
+Release"
+40e7b1e8be9f4fb36b622fbb6fb6b7cdd9899614,Henry Ma,2021-04-08,"Merge pull request #1810 from omnae/OE_1436
+
+Fixed a bug that InvitedByCompanyId always was null for OE-1439 and m…"
+e5fd2dabe64a0d71ed8df0fac77d2b3d7f997ff5,Henry Ma,2021-04-08,Added PreferredCurrency to endpoint of GetBidRFQSummaryList
+0217a3da52e25992e6369ea04ce747620c700ac3,Henry Ma,2021-04-08,Refactor
+50db2f011257e47699e090724fad53df8214b9c0,Henry Ma,2021-04-08,Fixed a bug that InvitedByCompanyId always was null for OE-1439 and modified GetCompanyParnters and GetCompanyParntersWithQAStats on filtered by InvitedByMe.
+6d1f0a4453a97e38e501e3035deb466522ae83fe,Henry Ma,2021-04-07,"Merge pull request #1809 from omnae/OE_1410
+
+OE-1421, fixed a bug for null reference."
+1524194eeccfc2c96e23bb8632570ceeb58c151d,Henry Ma,2021-04-07,Fixed a bug for null reference.
+95da664aafa78f4eeabd579445a186acdf445e6b,Rafael Sliveira Cordeiro,2021-04-06,"Merge pull request #1808 from omnae/staging
+
+Release"
+16bd52e9aed13ab4bd03884cd682ee5b81306cd5,Rafael Sliveira Cordeiro,2021-04-06,"Merge pull request #1807 from omnae/hotfix/emailCurrency
+
+Add the CurrentText to the Email Currency"
+93017bb4c915577ed3a64c68f6388e98865283fe,Rafael Sliveira Cordeiro,2021-04-06,Add the CurrentText to the Email Currency
+aa7e6f92c539f4299c2533cccffb7928a37a41d4,Rafael Sliveira Cordeiro,2021-04-06,"Merge pull request #1804 from omnae/hotfix/emailCurrency
+
+Update the Currency in the Emails"
+babee0ee6066aed09cd7a48dbb123af9209f2aea,Rafael Sliveira Cordeiro,2021-04-06,"Merge pull request #1806 from omnae/fix/log
+
+Fix log"
+e049dab4835ec7a1ac174436d4dabaf7f0f5866a,Rafael Sliveira Cordeiro,2021-04-06,Fix log
+cbe6ea5a0ec3870745586a79414f1ea29970d0c5,Rafael Sliveira Cordeiro,2021-04-06,Update the Currency in the Emails
+817a6a7acf8adf4f5404625a894f10313f06c8ee,Henry Ma,2021-04-05,"Merge pull request #1803 from omnae/OE_1410
+
+Updated ISO 4217 CurrencyCodes"
+d6d930afe18066c32b1626bf933a0b6beb91332c,Henry Ma,2021-04-05,Updated ISO 4217 CurrencyCodes
+e8624ccbfb5ddf9ba6b90dd2efac204ab1d3c1c0,Henry Ma,2021-04-02,"Merge pull request #1802 from omnae/OE_1410
+
+Fixed a bug which caused null reference."
+41d6099a374a24cb6f00ed5803ced5d0ea6452fe,Henry Ma,2021-04-02,Fixed a bug which caused null reference.
+3733f1d998b7cd5d2be448ace955f071418be527,Henry Ma,2021-04-02,"Merge pull request #1801 from omnae/OE_1410
+
+Modified OE-1409 to take and pass PreferredCurrency by using Preferre…"
+3acff6461fe433773e19d4c851f0958eb2b3e3fd,Henry Ma,2021-04-01,Added preferredCurrency to RFQBid table.
+c778560eb159f0818a6b1ae258e9fa984323f90d,Henry Ma,2021-04-01,Modified OE-1409 to take and pass PreferredCurrency by using PreferredCurrencyText for the FE.
+fc3c3574e1a4e93e48a3d387e10d5e4a4518ca3e,Henry Ma,2021-04-01,"Merge pull request #1800 from omnae/OE_1409
+
+Oe 1409"
+9ad8bac40d102d3db30b801b7544fb9b3fced1a5,Henry Ma,2021-03-31,Modified newly added Product property of PreferredCurrency to CurrencyCodes.
+0b32e36c3858678286ad6fd01eac9e2a9e0ec104,Henry Ma,2021-03-31,Added new column of PreferredCurrency into Product table and DTO and ViewModel files
+2df6eff4486375b7086ed669030e527b79be4a08,Henry Ma,2021-03-31,"Merge pull request #1799 from omnae/staging_hotfix
+
+Staging hotfix"
+b9ef8bf4a0e260514fb0d664ef02d6e423e2b732,Henry Ma,2021-03-31,Created new endpoint of SampleApproved for the new PO workflow which will eventaully replace the ApproveSample
+06f1581dd767291d7612f397462b681c7ac38fea,Rafael Sliveira Cordeiro,2021-03-31,"Merge pull request #1796 from omnae/feature/qa
+
+Refactor and Add Comments"
+d1974506b1534b7c90145b9d5f88317c30cda790,Henry Ma,2021-03-31,Merged from staging
+2a1c5e35a54f7a786b367c34bbf3d57c38b99395,Henry Ma,2021-03-31,Merged from Staging
+bbccd76ea3b66ea3ee4c0bd42d4fa094c8bab469,Henry Ma,2021-03-31,"Merge pull request #1798 from omnae/master
+
+Merged from master to Staging"
+78c0493aa9081f3dca814795f5c200e2e1d7b039,Henry Ma,2021-03-31,"Merge pull request #1797 from omnae/master_hotfix
+
+Added missing State for NCRCustomerCorrectivePartsReceived in State e…"
+7198e9e2e65cb6e23faf280eb9020046f47ed4c3,Henry Ma,2021-03-31,Added missing State for NCRCustomerCorrectivePartsReceived in State engine to fix a bug on NCR
+a4e1cb0e3e2afa0fd0bf9b793894728e7bffccf7,Rafael Sliveira Cordeiro,2021-03-31,Refactor and Add Comnments
+b0ad68579ff016e202d5afc8a4bd73d340e2cea4,Henry Ma,2021-03-29,"Merge pull request #1795 from omnae/OE_1389
+
+Implemented Jira issues: OE-1391, OE-1390, OE-1389, OE-1372"
+05a69652af4e00ded0f1adad9409e487c7734443,Henry Ma,2021-03-29,Naming
+7ff270fe3ec6a4d74c9b2e9e595c3b0051a8f73f,Henry Ma,2021-03-29,"Modified endpoint name from PlaceOrderV2() to DoProductionRun(), some refactors."
+5368ec966ca6c0f3060f6fec8a7d369c9aebeede,Henry Ma,2021-03-29,"Implemented Jira issues: OE-1391, OE-1390, OE-1389, OE-1372"
+c96ee0469b2c4b79b5b2a9a80319b4c3b15d2aa3,Rafael Sliveira Cordeiro,2021-03-27,"Merge pull request #1793 from omnae/hotfix/url
+
+Hotfix/url"
+ded43751853af5594b3ffcafe02cbcf3bbdd7e55,Rafael Sliveira Cordeiro,2021-03-27,"Merge pull request #1794 from omnae/hotfix/url
+
+Update URL"
+44f01cb3af199bf559511c2a3eda04726bba15c6,Rafael Sliveira Cordeiro,2021-03-27,Update URL
+26fc3f42262031c0bceecb2a671d0bdc54ceabab,Henry Ma,2021-03-26,"OE-1372, made new endpoint of CompleteProductionV2 which identical to CompleteProduction except no need to enter shipping related info by vendor."
+02decf7695b3df0a3ec1efb327d86a886bcc21b4,Henry Ma,2021-03-26,Created new endpoint of PlaceOrderV2 which will be called by vendor instead of customer (like in PlaceOrder).
+46dd8a0b049f04d96c05d07ba1877796f5855768,Rafael Sliveira Cordeiro,2021-03-25,"Merge pull request #1792 from omnae/staging
+
+Release- Hotfixes"
+d428c13b687202003221f7b7e25c8296e02c1d8c,Rafael Sliveira Cordeiro,2021-03-25,"Merge pull request #1790 from omnae/staging_hotfix
+
+Fixed a bug in search filter"
+fa9383e13bf5ffe9dc67b3e61031db001843da23,Rafael Sliveira Cordeiro,2021-03-25,"Merge pull request #1791 from omnae/feature/fixEmailUrl
+
+Feature/fix email url"
+879072cbbce952bbed035283bd4c45e1ee1f3cb0,Rafael Sliveira Cordeiro,2021-03-25,Fix OnBoarding
+c0c6b37d7ce801385fd0cace60c25a1da0c886b6,Rafael Sliveira Cordeiro,2021-03-25,Fix email URL to the Dashboard
+a50299323053b71261b02403e3df2a6b1f2108b2,Henry Ma,2021-03-25,Fixed a bug in search filter
+915dccbcaa9dde5ef9301ebf588f24f0637ba79d,Rafael Sliveira Cordeiro,2021-03-25,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+80d583dda96eb11d95c4d38228bd28c2ee70e3ce,Rafael Sliveira Cordeiro,2021-03-24,"Merge pull request #1789 from omnae/feature/curencyText
+
+Currency text to PRD"
+e1f1f9e0b599dff8aa39874799c91c56bac060d2,Henry Ma,2021-03-24,Merge remote-tracking branch 'origin/staging' into staging_hotfix
+4ff880d8f9ff2abaeace21e3d432c07530ee1ec7,Rafael Sliveira Cordeiro,2021-03-24,"Merge pull request #1788 from omnae/feature/curencyText
+
+BugFix"
+4b98bce97378f6a0a46863bebff7773ee26b7d46,Rafael Sliveira Cordeiro,2021-03-24,BugFix
+95bf971a24a58eacfc99d778b3a4dfe419cbb8aa,Henry Ma,2021-03-24,CreateBill return void
+217c92e76f2883da916e6b6cd09236e79e532055,Rafael Sliveira Cordeiro,2021-03-24,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+89174d5bf5e1f500bff9a0573b79b4e93c5f6918,Rafael Sliveira Cordeiro,2021-03-24,Fix Typo
+291ca3090e770cabfaa44246ed3c6ea77c03f601,Rafael Sliveira Cordeiro,2021-03-24,"Merge pull request #1787 from omnae/feature/curencyText
+
+Feature/curency text"
+ec4b8844578fdb71d642563afc50a9d4f3c69402,Rafael Sliveira Cordeiro,2021-03-24,Update The Currency To Show in Text
+43f80db656ec8e0e2d491addb377d52e94596c8f,Rafael Sliveira Cordeiro,2021-03-23,"Merge pull request #1786 from omnae/feature/qboRefactor
+
+Feature/qbo refactor"
+1faed6b12e64d550703410f9956226c672b3373d,Henry Ma,2021-03-23,"Removed changes made previous on CreateBill, since changes will cause error from QBO."
+3f76ebba615341e3d917052b2a93aa8d155415a2,Henry Ma,2021-03-23,Revert back from previous changes for PlaceOrder
+0f33d894c871119811f4c603924f057df2113da7,Rafael Sliveira Cordeiro,2021-03-23,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+05d0a255af1cc6abc0418c98975367c06edd513f,Henry Ma,2021-03-23,Changed to Staging web.configs
+d06d44c72b26cf9902cd5b13d7d2c5f917928650,Henry Ma,2021-03-23,Modified to output two orders for the first-time order in endpoint of PlaceOrder.
+4bbd236fde479699846cf6f30406cc11fca41af6,Rafael Sliveira Cordeiro,2021-03-22,Refactor Qbo Code
+2ea9d0908890a122dd044148859811b53cf046e3,Henry Ma,2021-03-19,"Merge pull request #1783 from omnae/staging
+
+Merged from Staging"
+1edc969fd58b5229485d472d2e79c06d051bd514,Henry Ma,2021-03-19,"Merge pull request #1782 from omnae/staging_hotfix
+
+Fixed a bug when retrieving  ProductSharing table for a given companyId."
+49a440121c23e726ba02305c24d797fee9d8f3e7,Henry Ma,2021-03-18,Fixed a bug when retrieving  ProductSharing table for a given companyId.
+e84bae6b5d2f8eb93b6ce0a13e158cbf48a30c34,Rafael Sliveira Cordeiro,2021-03-18,"Merge pull request #1780 from omnae/hotfix/onboarding
+
+Hotfix/onboarding"
+111b4dc18e200eec17d5bbdb43bb8e2952ded322,Rafael Sliveira Cordeiro,2021-03-18,"Merge pull request #1779 from omnae/hotfix/onboarding
+
+Hotfix/onboarding"
+1e6c0b96005785033f6147672e46c3de92e804d5,Rafael Sliveira Cordeiro,2021-03-18,Use email in lowercase
+3029d336f8fc938502e28c8d95e768eea5841246,Rafael Sliveira Cordeiro,2021-03-18,Add Config
+ad7bd93de37a57cb787dcd7b644e53c91ad62ed1,Rafael Sliveira Cordeiro,2021-03-16,"Merge pull request #1778 from omnae/hotfix/onboarding
+
+Hotfix/onboarding"
+41225de4455a0244edbbdc6ee5c73450231a81d3,Rafael Sliveira Cordeiro,2021-03-16,"Merge pull request #1777 from omnae/hotfix/onboarding
+
+Hotfix/onboarding"
+2ef5cbd58544efb67f679d9e7fbc5e8d1f672d66,Rafael Sliveira Cordeiro,2021-03-16,Refactor
+676b7e9993e44440bb06e0ae7f63553d3d32ac82,Rafael Sliveira Cordeiro,2021-03-16,BugFix
+933532cdec07d75339fbac392f6f706b389dddc9,Rafael Sliveira Cordeiro,2021-03-16,Do Not error if happen error in Hubspot integration
+9f2dc3fe4482e36fb612f746bb310d188a094eb6,Rafael Sliveira Cordeiro,2021-03-16,Add Configuration to HubSpot
+06e1811500469911725f689252d0c677cad8d63e,Rafael Sliveira Cordeiro,2021-03-16,Fix Invitation Process
+44bcfe1c6bc5d6d72cf45959d546878bc5411805,Rafael Sliveira Cordeiro,2021-03-16,Improve Validation. New Validation to Phone Number and Fix Post Code Validation
+5732a5a7c5aa9bb9658e81a782f723091b1dd8a2,Rafael Sliveira Cordeiro,2021-03-12,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+ea8f5d88a163007be1310b9858eb6d8058920239,Henry Ma,2021-03-12,"Merge pull request #1775 from omnae/staging
+
+Merged from Staging"
+9dfd156df07ee531c97f653b31f99b219382aa38,Henry Ma,2021-03-09,"Merge pull request #1774 from omnae/master
+
+Merged from Master"
+657e319917a82ca08ef558513d4348f6d93164fe,Henry Ma,2021-03-09,"Merge pull request #1773 from omnae/master_hotfix
+
+Allow range of states from SampleComplete to ProductionComplete to be…"
+45ac79c5b91b3dec8b75f4216532828f1fb0b294,Henry Ma,2021-03-09,Allow range of states from SampleComplete to ProductionComplete to be displayed in Order history.
+6ca441da5da74c464d195c0abcff9bb871ac9ce7,Rafael Sliveira Cordeiro,2021-03-08,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+0cd7b4c381e501766a78b2327be92ac8e613d854,Henry Ma,2021-03-02,"Merge pull request #1771 from omnae/Staging_hotfix
+
+Modified search by company's primary contact first/last names, and di…"
+2f54fa5a2e10b2c992467c1680603e8fef08689f,Henry Ma,2021-03-02,"Modified search by company's primary contact first/last names, and display those in DTO class."
+217efb88e1a72a9f2f984b23e7d68862c29bf5e9,Henry Ma,2021-02-26,"Merge pull request #1770 from omnae/Staging_hotfix
+
+web.config, fixed  wrong comments"
+8663ee3979c265515e5f095392734068a86ebf05,Henry Ma,2021-02-26,"web.config, fixed  wrong comments"
+95b6cb31c4fd2266d5d3bde11fea204c7661c23d,Henry Ma,2021-02-26,"Merge pull request #1769 from omnae/Staging_hotfix
+
+Staging hotfix OE-1187"
+27a0295469caa7000ed2bf4ed1a54dc0e6837196,Henry Ma,2021-02-26,Fixed a issue caused by upgrading to .Net 5
+59678aed3900ba127ef72d8dcafedbb1131892f0,Henry Ma,2021-02-26,Added primary contact to the search
+d5504152de14018415a03f85e12930ad642e7cc6,Henry Ma,2021-02-25,Merge remote-tracking branch 'origin/staging' into Staging_hotfix
+62860092e847b8ed1d67e9ccba6e6ba74f94867f,Henry Ma,2021-02-24,"Merge pull request #1768 from omnae/master_hotfix
+
+Merged from Staging"
+e42ded08b1277fdbe29a12743e30eb1d430f3bcd,Henry Ma,2021-02-24,"Merge pull request #1767 from omnae/master_hotfixing
+
+Merge"
+9343434b15f4759f8519c047b8c6c7c8231ef7ef,Henry Ma,2021-02-24,Merged from Staging
+f387d2921939acdcc42fdf29ad35244c01ae9a9b,Rafael Sliveira Cordeiro,2021-02-23,Merge branch 'staging' of https://github.com/omnae/Omnae into staging
+68f1922ac629b4637598d4a2c08c04426c51fea3,Rafael Sliveira Cordeiro,2021-02-23,Update Profiles
+3e5091472aa817c5bc108a002c60dcdd606b8d43,Rafael Sliveira Cordeiro,2021-02-23,"Merge pull request #1765 from omnae/feature/shippingProfile
+
+Bugfix"
+e51963d1f14f5acb55a7cb9c23c326e9f6082b54,Rafael Sliveira Cordeiro,2021-02-23,Bugfix
+de92fd7966a6d3c8adc3601d2fd56b8cbb9f6b0a,Rafael Sliveira Cordeiro,2021-02-20,"Merge pull request #1758 from omnae/feature/emailsViaQueue
+
+Emails via queue"
+e808c71b6c2f028bff360925bb4ec2e6e2c256de,Rafael Sliveira Cordeiro,2021-02-20,Merge branch 'staging' into feature/emailsViaQueue
+9b4612372243f75414244957a39cf461597a2f79,Henry Ma,2021-02-19,"Merge pull request #1764 from omnae/Staging_hotfix
+
+Solved a long-time unsolved issue when performing updating Refresh tokens from QBO."
+069cc93ec80f961b8fe5eae9141852b79c3e92d4,Henry Ma,2021-02-19,Merge remote-tracking branch 'origin/staging' into Staging_hotfix
+248c8bebba91822becf620c543d95e473cdf3377,Rafael Sliveira Cordeiro,2021-02-19,"Merge pull request #1763 from omnae/feature/shippingProfile
+
+Bug Fix"
+73033fcfa5f9de67b90c457d2cce494dfe5539c5,Rafael Sliveira Cordeiro,2021-02-19,Bug Fix
+7d2d7dbc9157ea4365dd32a9bfb3174a69ae94ab,Rafael Sliveira Cordeiro,2021-02-19,Merge branch 'staging' into feature/emailsViaQueue
+5d222faf0b069e430a2fc467d9b5c92bc6198d1a,Rafael Sliveira Cordeiro,2021-02-19,"Merge pull request #1762 from omnae/feature/shippingProfile
+
+BugFix"
+0471c44859ad285e8a53b796ebdbaf22ff79b966,Rafael Sliveira Cordeiro,2021-02-19,BugFix
+4da62bb667498a3e194a9441ef77f3b8e5bff145,Henry Ma,2021-02-19,Fixed a long time issue state invalid when update QBO refresh key.
+239994e99616466664ef4b014fee900d5d2059b4,Henry Ma,2021-02-18,"Merge pull request #1760 from omnae/Staging_hotfix
+
+Bug fixing"
+4aeaffa8c54db76cd8072be42849977b47b3b960,Henry Ma,2021-02-18,Merge remote-tracking branch 'origin/master' into Staging_hotfix
+497967216f99ec46323989f184bc53bd6461da88,Henry Ma,2021-02-18,"Merge pull request #1759 from omnae/master_hotfix
+
+Master hotfix"
+5da3103fa2b3daf58e4f812f934465266e952e73,Rafael Sliveira Cordeiro,2021-02-18,Update
+6012800059421865ff1dec5892526183ee9763cd,Rafael Sliveira Cordeiro,2021-02-18,Fix Big Emails
+fc86966f54d90eb96af78b8f50696311155c8ba8,Henry Ma,2021-02-17,Bug fixing
+4942057487d4d28cd917649caf24df5f36f98456,Henry Ma,2021-02-17,Merge branch 'master_hotfix_new' into master_hotfix
+eb9e4129f2ca791aba987c1f00b31b36f2d32116,Henry Ma,2021-02-17,Bug fixing
+7f06046f230974cb99687933b93b41e01edfc1ae,Rafael Sliveira Cordeiro,2021-02-13,Add Config
+0f269058edd82aa88802487fdb4ea2d97accf9e7,Rafael Sliveira Cordeiro,2021-02-12,Update MsBuild
+d4bf1f202a17b2e725a7449866350958970608b8,Rafael Sliveira Cordeiro,2021-02-11,Merge branch 'staging' into feature/emailsViaQueue
+67fdee543353230a6bea8e7096223bb52a616c80,Henry Ma,2021-02-11,"Merge pull request #1746 from omnae/OE_1256
+
+Fixed a lib version mismatching issue"
+d7f8a6e72028112742f3cd59de0626726e913b97,Henry Ma,2021-02-11,Fixed a version mismatching.
+6b82e1bb9f7a8c00aad12611b31dd39304b037f5,Rafael Sliveira Cordeiro,2021-02-11,BugFix
+3af3b557be40f19fb74f8c1614ca1549251f7dc9,Henry Ma,2021-02-11,"Merge pull request #1744 from omnae/OE_1256
+
+Modified clientId and clientSecrit for QBO to point to another Sandbox company in web.config"
+338004cb7391b13599e6f51ae5d099ac5f166a78,Henry Ma,2021-02-11,Merge remote-tracking branch 'origin/staging' into OE_1256
+f9210b6e1bec7b32dcefb684d020e3fe7a64003b,Henry Ma,2021-02-11,web.config
+6189033d98c20e71c35087e5bb1ff117693671bd,Rafael Sliveira Cordeiro,2021-02-11,Update Nugets
+2e2b1b5d12530aaa33ec56000fdd37bf84e86a66,Rafael Sliveira Cordeiro,2021-02-11,Add Queue
+f833747be2684751e1a9e25cce96e3fad27b9dbc,Rafael Sliveira Cordeiro,2021-02-11,"Merge pull request #1743 from omnae/feature/shippingProfile
+
+Bug Fix"
+f744409ccdd62ad4f5dd37a957f33ed610a3a7c6,Rafael Sliveira Cordeiro,2021-02-11,Bug Fix
+daea1dcb40982067cfe285faa975d4d7077b8b3f,Rafael Sliveira Cordeiro,2021-02-10,Merge
+9882b5d805c97429407d598d0dad44457e203a2c,Henry Ma,2021-02-09,"Merge pull request #1742 from omnae/OE_1256
+
+QBO IPP SDK version updated to fixing dll hell issue."
+fb58b20322a92f2bb8a6484ac50a4ca9d1702d41,Henry Ma,2021-02-09,QBO IPP SDK version updated to fixing dll hell issue.
+679fd6b6d30528431f6b29d5bdeb5d77a8865522,Henry Ma,2021-02-09,"Merge pull request #1741 from omnae/OE_1256
+
+Oe-1256"
+7894aa739c3ce6154cdd8e6200e5afb9effde60d,Rafael Sliveira Cordeiro,2021-02-09,Refactor
+c77a631d0736d917a7baa6d82a4850a820487943,Henry Ma,2021-02-09,web.config
+36acd044a5122e3b4b55844e3c4f82394a6f5503,Henry Ma,2021-02-09,Fixed bug which missing the change of state for customer task.
+11fce8b1e7c309c6abead2289a78fe4236c2d9f2,Rafael Sliveira Cordeiro,2021-02-08,Merge
+56a991ca95e9a594497b5df86d5762c57263862c,Rafael Sliveira Cordeiro,2021-02-08,"Merge pull request #1740 from omnae/feature/shippingProfile
+
+Change Required"
+8c056dfb1640944ecc0581b16b2212ad424fbf4d,Rafael Sliveira Cordeiro,2021-02-08,Change Required
+b39b8e98d3426bdab075401931182d134e0f65f5,Rafael Sliveira Cordeiro,2021-02-05,"Merge pull request #1739 from omnae/feature/shippingProfile
+
+Add ConcurrencyCheck"
+16946b207ce3d56e6b1f3636c2b44e21a9827e54,Rafael Sliveira Cordeiro,2021-02-05,Add Conflict Return
+fabfdf146e427388074ad3d5fc3a4dd20b027f87,Rafael Sliveira Cordeiro,2021-02-05,Filter IsActive
+a548386acfabf21dd22defb067817071c26cc022,Rafael Sliveira Cordeiro,2021-02-05,Add ConcurrencyCheck
+ea558a7cea858faa698a99afc311c6fc054a9e7e,Henry Ma,2021-02-04,"Merge pull request #1738 from omnae/staging
+
+Merged from Staging"
+ca7d85c749d79caef209bc88fecd0bb0ea7e5fd5,Henry Ma,2021-02-04,web.config
+a29cc8dd4623059b94e86009d49b1d81e4f458b7,Henry Ma,2021-02-04,"Merge pull request #1736 from omnae/staging_hotfix
+
+Set TimerStartAt to null in table TimerSetup for this product, so tha…"
+383bf9ebf628ded25262cd8ae2d3ce0bc18a49ce,Henry Ma,2021-02-04,"Set TimerStartAt to null in table TimerSetup for this product, so that front end would display Bid timer anymore when set the state back to ReviewRFQ."
+84bd6c1611108591d420f7f611c8a285d632d54b,Henry Ma,2021-02-04,"Merge pull request #1734 from omnae/staging_hotfix
+
+Also remove the ToBeExpired timer along the Bid Timer. Removed unused…"
+0a723c713f4f7a1e11676bbcc4085922a766cce7,Henry Ma,2021-02-04,Also remove the ToBeExpired timer along the Bid Timer. Removed unused code.
+5f8bef35f60d36831ded1c130af42dcef268359c,Henry Ma,2021-02-04,"Merge pull request #1732 from omnae/staging_hotfix
+
+When customer sending revision request, stop all timers before it sta…"
+ac733d990d981f71ebfb79fc8f85be4312cf8797,Henry Ma,2021-02-04,"When customer sending revision request, stop all timers before it start revision timer."
+a6fe1e40b5516d92aa30296ec0b534f3054ac76c,Henry Ma,2021-02-04,"Merge pull request #1730 from omnae/staging_hotfix
+
+Modified to prevent null Term value."
+50725cd6f276db4879cfa094997d666bdd3ee354,Henry Ma,2021-02-04,Modified to prevent null Term value.
+5676b09bffddd2585eeb95d1db07eec06e17f330,Rafael Sliveira Cordeiro,2021-02-04,"Merge pull request #1728 from omnae/feature/shippingProfile
+
+BugFix"
+1b58ceba5dc65e5a658265455e18f45a6e439beb,Rafael Sliveira Cordeiro,2021-02-04,BugFix
+a27efe4f073686f037a6208cba455403e570b304,Henry Ma,2021-02-04,"Merge pull request #1726 from omnae/staging_hotfix
+
+Fixing a bug"
+c39a13b435ca610aaebc4d25ab71a3849edc99c4,Henry Ma,2021-02-04,Fixing a bug
+cf104a0affca66c4581eaa1e2c98d092e17e9deb,Henry Ma,2021-02-04,"Merge pull request #1723 from omnae/staging_hotfix
+
+Staging hotfix"
+8fc028f95ecf4f60b42ff1f929a1744471c7ded4,Henry Ma,2021-02-03,"Modified code when retrieve Term from QBO and also changed so that when company's Term is null, the system won't create Invoice on QBO"
+6dc467b9eebfb44eb4d7f2d2b27686bba25bcfad,Henry Ma,2021-02-03,"Remove all timers from Atrigger after handling revision request, so that a new revision review request timer can be setup."
+21558b7181fafe114771807e8a447feb34fbbd4d,Henry Ma,2021-02-02,"Merge pull request #1721 from omnae/staging_hotfix
+
+Minor"
+009589809c12d21549850eb9bdd2dee2e80ba00f,Henry Ma,2021-02-02,Minor
+a8e5379627e5a465d4db038401627a9047dda0be,Henry Ma,2021-02-02,"Merge pull request #1720 from omnae/staging_hotfix
+
+Minor changes"
+3a0edb385e1ae1730798a22ec8f41e5f85072e32,Henry Ma,2021-02-02,Minor changes
+797b999d2b070aacfeaba56262e448a2705444d4,Henry Ma,2021-02-02,"Merge pull request #1719 from omnae/staging_hotfix
+
+Recovered the previous changes by un-comment. OE-1224"
+46bf5c653b18f812a5471213b94514a964eeef66,Henry Ma,2021-02-02,Recovered the previous changes by un-comment.
+7f85d04d78a07c1f0fa2b4b2844ef53614ae9e34,Henry Ma,2021-02-02,"Merge pull request #1718 from omnae/staging_hotfix
+
+Changed back from last committed."
+94e6bda0d367793c9d3b190c2e8c3f1f5d91ffdd,Henry Ma,2021-02-02,Changed back from last committed.
+f561de965e55b7e18c51b382e28bacc30f803420,Henry Ma,2021-02-02,"Merge pull request #1717 from omnae/staging_hotfix
+
+Minor"
+81fcda287299d0661177ce9d1fe314802d6e752b,Henry Ma,2021-02-02,Minor
+e10fd11b9abf0782876e0beedf91d02152705425,Henry Ma,2021-02-02,"Merge pull request #1716 from omnae/staging_hotfix
+
+Bug fixing"
+d60996da7ede072d40858d0162ac2aeeebdadf01,Henry Ma,2021-02-02,Bug fixing
+c810b31d3dfa54d90ec2e20a186d57810917c723,Henry Ma,2021-02-02,"Merge pull request #1715 from omnae/staging_hotfix
+
+More changes for OE-1224"
+19e5f28593f88fbf7591f63b945b8f956c4b8c4b,Henry Ma,2021-02-02,More changes for OE-1224
+1e3e806959098c7f546046231556ffd8cde852e5,Henry Ma,2021-02-01,"Merge pull request #1714 from omnae/staging_hotfix
+
+Filtered out BidTimeout and VendorRejectedRFQ when set other vendors …"
+35efbabcdbd4d75a58804e0d6b1d73f14df5779f,Henry Ma,2021-02-01,Filtered out BidTimeout and VendorRejectedRFQ when set other vendors who failed to bid and changed their state to RFQBidComplete
+2536e2ebc1a66c7495fdd145d706cd1304a35f1e,Henry Ma,2021-02-01,"Merge pull request #1713 from omnae/staging_hotfix
+
+Modified to not change state to RFQBidComplete from BidTimeout."
+0b44edd3d16fd320ca7acb2696d044230aee24e4,Henry Ma,2021-02-01,Modified to not change state to RFQBidComplete from BidTimeout.
+104bb849750ffa89880a741a800147d5b2ca5cf8,Henry Ma,2021-02-01,"Merge pull request #1712 from omnae/staging_hotfix
+
+Bug fixing"
+47663eff26a2c53277df232146bce63aee233b5d,Henry Ma,2021-02-01,Bug fixing
+f919d12a380ab724abcca3a14a34514f89173717,Henry Ma,2021-02-01,"Merge pull request #1711 from omnae/staging_hotfix
+
+Removed i which for testing purpose. Leave BidTimeout state unchanged."
+8bcb37a5ed254016200598f69c77116a3dbf3c2c,Henry Ma,2021-02-01,Removed i which for testing purpose. Leave BidTimeout state unchanged.

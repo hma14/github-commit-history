@@ -1,0 +1,66 @@
+Commit SHA,Author,Date,Commit Message
+f55ac1e73e396e3624f4bab1c8143622a99aafc2,,2022-01-31,update dependencies (#103)
+c28f6d72bb29c6dc233aa9ac4db9ef209abd408d,Isao Kozakai,2022-01-28, Fix the issue with company settings (#102)
+f1e700dd8d935b97c1a0a0e8253a6d4bc656149c,,2022-01-24,update dependencies (#101)
+1baab94830ab03e3a4a4deb2e25526e2eb30b16b,,2022-01-17,update dependencies (#100)
+941fa2f5a7e4288790570287fba707988e9dcdf9,,2022-01-17,chore(deps): bump follow-redirects from 1.14.3 to 1.14.7 (#99)
+debfda4d0ac7ded3eb3216574d38328a903bded5,Unknown,2022-01-11,Update dependencies to latest
+c02946b8d010fe16f52590bc916a9ce2099075d9,Unknown,2022-01-06,Update dependencies to latest
+0aaa6615dcbb9a0a723f38a2f5521702cf9b2c16,Unknown,2021-12-14,Update dependencies to latest
+013d04818902e9adf9db727c2f0b0e1643a8e9d2,Unknown,2021-12-06,update dependencies to latest
+04359f4b2f9c3057e7f6edd17795f9d6d716c93c,Unknown,2021-11-30,update dependencies to latest
+6d76144e260aa08ec620083da47f25aab7aae3e8,Svetlana Ivanova,2021-11-19,update dependencies to latest
+160b06f6075df2a8485e247a94fcb56fa1f9f6a9,Svetlana Ivanova,2021-11-08,update dependencies to latest
+f26cea612bff9a5bc81ec848d1b2a4e6887660c1,Svetlana Ivanova,2021-11-02,update dependencies to latest
+4d0043f4dbf9d19d7c18a33507046645b2cdee2b,Svetlana Ivanova,2021-10-25,update dependencies to latest
+89e215accc8ad68ee6b9f9db00a9b1b826e09121,Svetlana Ivanova,2021-10-04,chore: update dependencies to latest
+90998577418466fe322ae788c5163c1db48edb64,,2021-09-27,update dependencies (#89)
+33d42b6474ee032b186246ef295c9cf12471f222,,2021-09-27,chore(deps): bump tmpl from 1.0.4 to 1.0.5 (#86)
+72bfe0c8797d6cb3a02e3fe129c43e694a4a4604,Isao Kozakai,2021-09-24,[OE-1703] As user I want to set my company's default currency in company settings (#88)
+e4b0bfb3a41e07afcf7dc58c3422ce3fae3d7fe2,Isao Kozakai,2021-09-22,[OE-1784] Make accountingEmail allow empty or null (#87)
+e461dbf40ec430fd73808134af4df9e43590c2df,,2021-09-20,update dependencies (#85)
+513c1c0bba8d4bfd1a43ab7089fc99df41a338a7,,2021-09-20,chore(deps): bump axios from 0.21.1 to 0.21.4 (#84)
+e26bbb9feeef3056ec707ac26096ab29239c0148,,2021-09-13,update dependencies (#83)
+934adfbfbbb16fdb79b04d19e57f9069284a162d,,2021-09-07,update dependencies (#82)
+f2023ba93758ee80de05763b478b2956dcd28b65,Isao Kozakai,2021-09-02,[OE-1484] Add billingAddress to company (#80)
+5e1230b3c787bec73b726297abbda5913d65ea55,,2021-08-30,update dependencies (#81)
+050c2170ddffeeb11de09fdd4027d85087e9f823,,2021-08-23,update dependencies (#79)
+5a0ab879b0454e6b8a7cede26a40bdb24b5162d8,,2021-08-16,chore(deps): bump path-parse from 1.0.6 to 1.0.7 (#77)
+943b548173444ec6b4cb9a282060860e0d4244b6,,2021-08-16,update dependencies (#78)
+f4d7449cd80685edfb97280ec585eab5f57f95a9,,2021-08-09,chore(deps): bump browserslist from 4.16.3 to 4.16.7 (#75)
+bc914a31e84ccf9e681724f05f96a4560c7ba150,,2021-08-09,update dependencies (#76)
+2de69161607cd7611d42c98aeae0f689ea8f0259,,2021-08-03,update dependencies (#74)
+633e2ae45fbafb352f99f6a70339eab99e7a6faa,,2021-07-26,update dependencies (#73)
+80892fdbe1a3c23712be0d12c19805eb2527ddd1,,2021-07-20,Update dependencies to latest (#72)
+f28de8de883c1ee10c27236a1a79c5d0b36563e5,,2021-07-12,update dependencies (#71)
+2e58fa9445702fa918616a6eb1b043884938fdb0,,2021-07-05,update dependencies (#70)
+7c651288b8b73f1ece2656d37226259e9c61ac04,Viatcheslav Ivanov,2021-06-30,[OE-1513] Should be able to check if partner from company
+276d4e9b4b3b6ccfefbf65b827e8d6681d155927,,2021-06-28,Update dependencies to latest (#69)
+f7f805fe1bfa0ce5085c97ac9888e12e51bc0818,,2021-06-22,chore(deps): bump glob-parent from 5.1.1 to 5.1.2 (#67)
+a1b6ac1f029bcca2bd542170d6c6b60656074d89,,2021-06-22,Update dependencies to latest (#68)
+096ec172d5e517fe40a8109b7b62084ac53478f7,,2021-06-14,chore(deps): bump normalize-url from 4.5.0 to 4.5.1 (#65)
+7d5c2bf73e97ddcb744e02a89932f3cb322d3e4e,,2021-06-14,Update dependencies to latest (#66)
+ac65f7d76417267be3d4dd8bf4eb4414e4ed688c,,2021-06-08,Update dependencies to latest (#64)
+478f32f5c3461c4cb4ee4116ad58d89f0b8a932f,,2021-05-31,Update dependencies to latest (#63)
+b365c8b9882868c89d222771a0098f4f4d0a316e,Viatcheslav Ivanov,2021-05-27,fix: company is null when there is no main contact
+98ff3f126479cab0df0b9ae0f799d6b4c722c548,Carlos Renato Salim Campos,2021-05-26,[OE-1555] Include main contact in company (#60)
+cdd3c9173219b2fc0106990fdb959708777168c6,,2021-05-25,Update dependencies to latest (#61)
+aa128a9c6d6506f108dcb2c15e2542a88c71ffb9,,2021-05-17,chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9 (#58)
+78d52f6a06a80d40e7981be5ba0b47d09b73f54f,,2021-05-17,Update dependencies to latest (#59)
+16cf117771f0aefe85acd5d2a2d42b2cb6def038,,2021-05-10,Update dependencies to latest (#57)
+959797524b1ff856b8ace18e0247c1e71c9890b0,,2021-05-06,Update dependencies to latest (#56)
+84f9290f3bb03e75ae3f843d18b5c02d580fa9b3,,2021-04-27,Update dependencies to latest (#55)
+19c0749423a8da3f96cc1a5851501a99ced8524f,,2021-04-19,Update dependencies to latest (#54)
+7e0124a5d77a7f36b4ebdbbdfac8c99c9b0b825c,,2021-04-13,Update dependencies to latest (#53)
+73b405ab88ed6862760862ca59900114b3432347,,2021-04-06,Update dependencies to latest (#52)
+5585214fc4544f1f21a68cff7731a5555303d124,,2021-03-29,Update dependencies to latest (#51)
+bbf9787832a51f20898dbb975b695e2dbe578462,,2021-03-24,Update dependencies to latest (#50)
+cf1a8e819669a10e161467f223cb7b5f7e30ff4f,,2021-03-16,Update dependencies to latest (#49)
+5b579aa3ff63da77426be9118e7ccbabb384d543,Viatcheslav Ivanov,2021-03-09,update knex to latest and resolve conflicts
+beebd104a5748f05d6b6cae06d48d975ad871f35,Viatcheslav Ivanov,2021-03-08,chore: revert knex
+4514fe2aa475ebb056348b761210e3b08e4f03c5,Viatcheslav Ivanov,2021-03-08,test commit
+8b09d554333b1ad7d9bbdd76bdeb1d1e6bb80b68,,2021-03-08,Update dependencies to latest (#48)
+495c01ff630b3d69d3a86cfa98b8757c9a4a74a3,,2021-03-01,Update dependencies to latest (#47)
+729d406b30382076b829088270fc74731c505bba,,2021-02-22,Update dependencies to latest (#46)
+02bcdf991e32862544854ca87eaa06acee3b0ba9,,2021-02-16,Update dependencies to latest (#45)
+0619c5c1b406169eab8263aef5cf83850ccacd36,,2021-02-03,Update dependencies to latest (#44)
