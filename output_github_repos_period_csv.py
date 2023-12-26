@@ -25,17 +25,9 @@ def list_organization_repositories(org_name, access_token):
         print(f"Error: {e}")
 
 
-def get_commit_history(repo_name, org_name, access_token, start_date, end_date, output):
+def get_commit_history(repo, start_date, end_date, output):
     try:
-        print(f"Repositories for {repo_name}:")
-
-        g = Github(access_token)
-
-        # Get the organization
-        org = g.get_organization(org_name)
-
-        # Get the repository
-        repo = org.get_repo(repo_name)
+        print(f"Repositories for {repo.name}:")
 
         # Get commits within the specified date range
         commits = repo.get_commits(since=start_date, until=end_date)
@@ -77,5 +69,6 @@ for repo in repos:
         continue
     output = repo.name + "_commit_history.csv"
     get_commit_history(
-        repo.name, organization_name, access_token, start_date, end_date, output
+        repo, start_date, end_date, output
     )
+
