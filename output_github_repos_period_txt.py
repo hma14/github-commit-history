@@ -3,9 +3,9 @@ from datetime import datetime
 from config import access_token, organization_name
 
 
-# repositories = [ 'omnae', 'omnae-webapi', 'omnae-app', 'orders-service', 'companies-service', 'products-service', 'emails-service', 'app-gateway']
+repositories = [ 'omnae', 'omnae-webapi', 'omnae-app', 'orders-service', 'companies-service', 'products-service', 'emails-service', 'app-gateway']
 
-repositories = ["emails-service"]
+#repositories = ["emails-service"]
 
 
 def list_organization_repositories(org_name, access_token):
@@ -61,5 +61,5 @@ repos = list_organization_repositories(organization_name, access_token)
 for repo in repos:
     if repo.name not in repositories:
         continue
-    output = repo.name + "_commit_history_test.txt"
+    output = repo.name + "_commit_history.txt"
     get_commit_history(repo, start_date, end_date, output)
